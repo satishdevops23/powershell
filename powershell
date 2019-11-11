@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "welcome"
+read $variable
+echo "devops team"
+read $variable
+echo "$devopsteam">test.txt
+user add AAA
+user add BBB
+chown AAA ./test.txt
+chmod 755./test.txt
